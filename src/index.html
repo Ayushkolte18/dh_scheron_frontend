@@ -2,12 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Dhscheron</title>
+  <title>DHscheeron</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--  -->
+  <!-- Bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="https://res.cloudinary.com/ayush1904/raw/upload/v1581328226/fullpage.min_up75yz.js"></script>
+  <!--  -->
+  
 </head>
 <body>
   <app-root></app-root>
 </body>
+<script>
+  $(document).ready(function() {
+$('.horizontals').pagepiling({
+   menu: null,
+     direction: 'horizontal',
+     verticalCentered: true,
+     sectionsColor: [],
+     anchors: [],
+     scrollingSpeed: 700,
+     easing: 'swing',
+     loopBottom: false,
+     loopTop: false,
+     css3: true,
+     menu: '#menu',
+   anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+     navigation: {
+         'textColor': '#000',
+         'bulletsColor': '#000',
+         'position': 'right',
+         'tooltips': ['section1', 'section2', 'section3', 'section4']
+     },
+      normalScrollElements: null,
+     normalScrollElementTouchThreshold: 5,
+     touchSensitivity: 5,
+     keyboardScrolling: true,
+     sectionSelector: '.section',
+     animateAnchor: false,
+
+ //events
+ onLeave: function(index, nextIndex, direction){},
+ afterLoad: function(anchorLink, index){},
+ afterRender: function(){},
+});
+});
+</script>
+<script>
+function navBarColor() {
+ document.getElementById("bgNavBar").style.background = "transparent"
+ document.getElementById("removeSearchBar").style.display = "none"
+ document.getElementById("removeIcon").style.display = "block"
+ document.getElementById("logo_control_sub_home").style.width = "230px"
+}
+
+ function navBarColorBefore() {
+ document.getElementById("bgNavBar").style.background = "white"
+ document.getElementById("removeSearchBar").style.display = "block"
+ document.getElementById("removeIcon").style.display = "none"
+ document.getElementById("logo_control_sub_home").style.width = "180px"
+}
+
+</script>
 </html>
