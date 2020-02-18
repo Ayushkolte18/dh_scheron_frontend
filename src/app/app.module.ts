@@ -9,6 +9,7 @@ import { ProductComponent } from './product/product.component';
 import { CareerComponent } from './career/career.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     NetworkComponent,
     ProductComponent,
     CareerComponent,
-    ContactComponent
+    ContactComponent,
+    BlogComponent
    
   ],
   imports: [

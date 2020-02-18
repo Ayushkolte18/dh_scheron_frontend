@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>DHscheeron</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
@@ -74,5 +74,14 @@ function navBarColor() {
  document.getElementById("logo_control_sub_home").style.width = "180px"
 }
 
+</script>
+<script>
+    <script>
+    $(document).ready(function () {
+          if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
+      });
+  </script>
 </script>
 </html>

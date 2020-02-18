@@ -6,6 +6,7 @@ import { IndustriesComponent } from './industries/industries.component';
 import { NetworkComponent } from './network/network.component';
 import { CareerComponent } from './career/career.component';
 import { ContactComponent } from './contact/contact.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'network', component: NetworkComponent},
   {path: 'career', component: CareerComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'blog', component: BlogComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
 

@@ -10,6 +10,7 @@ import { ApiService } from './../../Servicee/Product_Services/api.service';
 })
 export class ProductComponent implements OnInit {
   products = [];
+  errorMsg;
 
   constructor(private api:ApiService) {
     this.getProduct();
@@ -17,10 +18,11 @@ export class ProductComponent implements OnInit {
    getProduct = () => {
     this.api.getAllProducts().subscribe(
       data => {
-        this.products = data;
-        console.log(data)
+        this.products = data,
+        console.log(data);
       },  
       error => {
+        this.errorMsg = error;
         console.log(error);
       }
     )

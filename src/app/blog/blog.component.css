@@ -1,0 +1,153 @@
+.logo_control_home_product_finder{
+    width: 170px;
+}
+.navbar_link{
+   text-transform: uppercase;
+   font-size: 1vw;
+   margin-right: 42px;
+   color: #7B7B7A;
+   font-weight: bold;
+}
+.language_bar{
+    height: auto;
+    background: transparent;
+}
+.grid_border{
+    border: 1px solid transparent;
+}
+.language_text_right{
+    text-align: end;
+    font-size: 1vw;
+    text-transform: uppercase;
+    padding: 2px;
+    color: white;
+    font-weight: 600;
+}
+.language_text_left{
+    text-align: start;
+    font-size: 1vw;
+    text-transform: uppercase;
+    padding: 2px;
+    margin-left: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+/*  */
+.address_contect_bar{
+    color: #7B7B7A;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.address_contect_bar_right{
+    color: #7B7B7A;
+    font-size: 1vw;
+    text-align: end;
+    font-weight: bold;
+}
+/*  */
+.blog_section{
+    background-color: #e4e4e4;
+    height: auto;
+    padding: 35px;
+}
+.top_margin_blog{
+  height: 150px;
+}
+.blog_heading{
+text-align: center;
+font-weight: bold;
+color: #E31E24;
+padding: 17px;
+font-size: 3.5vw;
+}
+
+.blog_heading_path{
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 1vw;
+ font-weight: bold;
+}
+.main_blog_aria{
+  background: white;
+  height: auto;
+}
+.blog_link{
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    border:1px solid red;
+    color: red;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.blog_topic{
+    font-weight: 600;
+    text-align: center;
+}
+.god_css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card */
+.card_ui{
+
+}
+.card_date{
+  text-align: start;
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+.card_heading{
+    text-align: start;
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: #E31E24;
+}
+
+.read_more{
+    text-align: start; 
+    font-size: 1.2vw;
+    color: #E31E24;
+    font-weight: bolder;
+}
+
+.scrollbar
+{
+	height: 100px;
+	width: 100%;
+	background: white;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+.force-overflow
+{
+	min-height: 200px;
+}
+
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #E31E24;
+}
+.card_description{
+    font-size: 1.2vw;
+    font-weight: 450;
+}
